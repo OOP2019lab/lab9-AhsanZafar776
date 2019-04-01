@@ -9,6 +9,9 @@ using namespace std;
 class Employee
 {
 	char* emp_name; 
+	Address emp_ad;
+	Project ** emp_pro;
+	int projects;
 	//Add Data Members here
 	
 public:
